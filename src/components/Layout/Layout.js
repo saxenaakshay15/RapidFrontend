@@ -11,7 +11,7 @@ const Layout = () => {
         <Link to={"/"} style={{ textDecoration: "none" }}>
           <img
             className={classes.tasveer}
-            src="https://media.giphy.com/media/ViONsaaehRgYhrSEoC/giphy.gif"
+            src="https://media.giphy.com/media/9JzhQsF0CltWlmqS57/giphy.gif"
             alt="chat"
           />
         </Link>
