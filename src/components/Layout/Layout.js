@@ -11,7 +11,7 @@ const Layout = () => {
         <Link to={"/"} style={{ textDecoration: "none" }}>
           <img
             className={classes.tasveer}
-            src="https://cdn-user-icons.flaticon.com/90208/90208893/1673991645232.svg?token=exp=1673992549~hmac=efba48df304f35708283e40d7f38b95f"
+            src="https://cdn-user-icons.flaticon.com/90208/90208893/1673991385633.svg?token=exp=1674632655~hmac=66db68e1cc3e49d7e8566dbbbfdc7264"
             alt="chat"
           />
         </Link>
