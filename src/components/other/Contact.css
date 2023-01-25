@@ -1,0 +1,59 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+  font-size: 1rem;
+  color:black;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border-radius: 14px; /* Rounded 
+  borders */
+  font-weight: 4;
+  color: #d8ebf8;
+  border: none;
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: none /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  color:black;
+  width: 6rem;
+  height: 2rem;
+  font-size: 6rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.auth {
+  margin: 3rem auto;
+  width: 95%;
+  max-width: 25rem;
+  background-color: #0c2d59;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  color: #d8e7f7;
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.abcdef {
+  cursor: pointer;
+  font: inherit;
+  color: #d8e7f7;
+  background-color: #03C988;
+  border: 0;
+  border-radius: 14px;
+  padding: 0.5rem 2.5rem;
+  color:white;
+  margin: 0.3rem;
+}
+
+.abcdef:hover {
+  background-color: #04bd80;
+}

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0A2647;
+}
+
+.App {
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Header {
+  width: 100%;
+  background-color: #011225;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  border-bottom: 1.5px solid black;
+}
+
+.Footer {
+  padding: 2rem;
+  height: 4rem;
+  width: 100%;
+  background-color: #02142a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
+
+.Header h1 {
+  font-size: 3rem;
+  color: #eff1f4;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: 4;
+  margin-left: 2rem;
+}
+
+.Header img {
+  margin-top: 4rem;
+  margin-right: 4rem;
+  padding: 0rem;
+  padding-right: 2rem;
+  height: 8rem;
+  overflow: hidden;
+}
+
+.Footer {
+  padding: 0.75rem;
+  display: grid;
+  place-content: center;
+  color: #BBE1FA;
+}
+
+.Nav {
+  padding-bottom: 0.5rem;
+  padding-top: 0.2rem;
+  width: 100%;
+  background-color: #0A2647;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.searchForm {
+  width: 80%;
+  padding: 1rem 0 0 0.75rem;
+}
+
+.searchForm input[type="text"] {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.searchForm label {
+  position: absolute;
+  left: -99999px;
+}
+
+.Nav ul {
+  color: #BBE1FA;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.Nav li {
+  padding: 1rem;
+}
+
+.Nav li:hover, 
+.Nav li:focus {
+  padding: 1rem;
+}
+
+.Nav li a {
+  color: #BBE1FA;
+  text-decoration: none;
+}
+
+.Nav li:hover, 
+.Nav li:focus, 
+.Nav li:hover a, 
+.Nav li:focus a  {
+  background-color: #0A2647;
+  color: #0A2647;
+}
+
+.Nav li:hover a, 
+.Nav li:focus a {
+  cursor: pointer;
+}
+
+.Home, .NewPost, .PostPage, .About, .Missing {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #d5ebf8;
+}
+.statusMsg {
+  margin-top: 2rem;
+}
+.searchHai{
+  background-color: #d5ebf8;
+}
+
+
+.naam h1{
+  font-weight: 12;
+  font-size: 9rem;
+}
+
+@media only screen and (min-width: 610px) {
+  html {
+    font-size: 22px;
+  }
+
+  .Header h1 {
+    font-size: 2rem;
+  }
+
+  .Nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Nav ul {
+    text-align: right;
+  }
+
+  .Nav li:hover, 
+  .Nav li:focus, 
+  .Nav li:hover a, 
+  .Nav li:focus a  {
+    background-color: #d5ebf8;
+    color: #0A2647;
+  }
+ 
+
+}
+
+@media only screen and (min-width: 992px) {
+
+  .Header svg {
+    font-size: 3rem;
+  }
+
+}
